@@ -29,7 +29,7 @@ div {
 
 #first::before {
     content            : '';
-    background-image   : url("../images/1st.jpeg");
+    background-image   : url("../images/1st.jpg");
     position           : absolute;
     background-size    : cover;
     background-repeat  : no-repeat;
@@ -74,4 +74,10 @@ div {
     z-index            : -1;
     opacity            : 0.3;
 
+}
+
+#first,
+#second,
+#third {
+    border: 1px solid black;
 }
